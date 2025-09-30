@@ -8,7 +8,7 @@ Add the file `mouse-button-45-fix.json` to `~/.config/karabiner/assets/complex_m
 
 ## Swap @ and "
 The "British English" version of the magic keyboard has the `@` and `"` keys in the American English locations.
-If you are used to the British English layout, then using [Karabiner-Elements](https://karabiner-elements.pqrs.org/) we can swap these so you can retain your muscle memory.
+If you are used to the British English layout, then by using [Karabiner-Elements](https://karabiner-elements.pqrs.org/) we can swap these so you can retain your muscle memory.
 Add the file `swap-at-and-double-quote.json` to `~/.config/karabiner/assets/complex_modifications` to restore this behaviour.
 
 ## Alt + tab
