@@ -1,0 +1,39 @@
+{
+  "title": "Disable Mouse Button4/5 Down Only",
+  "rules": [
+    {
+      "description": "Disable Button4 Down, keep Up",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button4"
+          },
+          "to": [], 
+          "to_after_key_up": [
+            {
+              "pointing_button": "button4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Disable Button5 Down, keep Up",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button5"
+          },
+          "to": [],
+          "to_after_key_up": [
+            {
+              "pointing_button": "button5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
