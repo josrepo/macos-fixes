@@ -1,0 +1,21 @@
+{
+  "title": "Remap Eject to Delete",
+  "rules": [
+    {
+      "description": "Remap Eject key to Delete key",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "eject"
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
