@@ -19,3 +19,9 @@ If you are used to the Windows style of `alt + tab`, there is a fantastic app ca
 It does not function entirely like Windows out of the box however, because releasing the `shift` key will select the previous window, whereas in Windows you would have to release `alt` as well.
 
 Add the file `com.lwouis.alt-tab-macos.plist` to `~/Library/Preferences` to restore this behaviour.
+
+## Replace eject with delete
+The magic keyboard has a rarely used eject key above the backspace which I think is a much better place for the absent delete key.
+Using [Karabiner-Elements](https://karabiner-elements.pqrs.org/) we can replace the eject key with a delete key which is much more useful.
+
+Add the file `map-eject-to-delete.json` to `~/.config/karabiner/assets/complex_modifications` to restore this behaviour.
