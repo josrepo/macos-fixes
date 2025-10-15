@@ -25,3 +25,9 @@ The magic keyboard has a rarely used eject key above the backspace which I think
 Using [Karabiner-Elements](https://karabiner-elements.pqrs.org/) we can replace the eject key with a delete key which is much more useful.
 
 Add the file `map-eject-to-delete.json` to `~/.config/karabiner/assets/complex_modifications` to restore this behaviour.
+
+## Discrete scroll
+The magic mouse benefits from scroll wheel acceleration, but if you prefer to use a third-party mouse, then it is undesirable.
+Using [DiscreteScroll](https://github.com/emreyolcu/discrete-scroll) we can restore the normal behaviour of the mouse.
+
+I have not provided a config file as the default settings are perfectly fine.
